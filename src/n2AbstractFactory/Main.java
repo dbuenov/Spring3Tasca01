@@ -20,6 +20,7 @@ public class Main {
 		System.out.println("Telefon?");
 		String telefon = sc.nextLine();
 		
+		
 		if (pais.equals("ESPANYA")) {
 			agenda = new AgendaEspanya(adreça, ciutat, cp, telefon);			
 		}else if (pais.equals("PORTUGAL")) {
@@ -39,8 +40,7 @@ public class Main {
 		}
 		
 		sc.close();
-		
-		
+				
 	}
 
 }
